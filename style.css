@@ -1,0 +1,630 @@
+*{
+    padding: 0;
+    border: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: black;
+    height: 20px; 
+}
+li,a{
+    text-decoration:none;
+    list-style: none; 
+    color: #a0a0a0;
+    font-size: 15px;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.logo{
+    color: white;
+    font-size: 10px;
+    padding-top:6px;
+    padding-left:20px ;
+    padding-bottom: 10px;
+  
+}
+.items{
+    margin-right: 30%;
+ 
+}
+ 
+.nav-items{
+    display: flex;
+}
+
+.links{
+    position: static;
+    padding: 20px 10px;
+}
+
+.bold{
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.btn{
+    width: 100%;
+    height: 30px;
+    font-size: 10px;
+    background:#00cccc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 10px;
+}
+
+.nav-text{
+    margin-top: 50px;
+    background: #ffdd33;
+    height: 35px;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: normal;
+    position: static;
+}
+
+.main{
+    position: relative;
+    z-index: 2 ;
+}
+.cover{
+    display: flex;
+}
+
+.columns{
+    width:40%;
+    padding:0 30px;
+    
+}
+.cover-story{
+    position: relative;
+    width: 60vw;
+    height: 70vh;
+    border: 1px solid black;
+    /* background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/tiktok-796x419.png"); */
+    /* background: rgba(175, 170, 170, 0.9); */
+    /* opacity:0.3; */
+}
+.cover-story::before{
+    content: "";
+    background-image:linear-gradient(to right, rgba(246,64,10,.7), rgb(129,44,48, .4)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/norway-sweden-evs-cars-future-polestar-tesla-nissan-renault-audi-sales-august-796x449.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.9;
+}
+.cover-section,.cover-title,.unordered-list{
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+}
+article{
+    display: block;
+}
+.cover-title{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 9px;
+    padding: 0 20px;
+}
+.cover-section{
+    margin-top: 60px;
+    font-size: 10px;
+    font-weight: bolder;
+    padding: 0 20px;
+    
+}
+.cover-header-image{
+    position: relative;
+    width: 60%;
+    padding: 20px 20px;
+}
+
+.unordered-list{
+    display: flex;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+
+.right{
+    border: 1px solid black;
+    height: 34.2vh;
+    
+}
+
+.col-right{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/tnw2020-empty_feature_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.col-right>h5{
+    position: relative;
+    font-size: 30px;
+    color: white;
+    padding: 50px 30px;
+    /* top:25%; */
+    /* text-align: center; */
+}
+.art-right{
+    margin-top: 10px;
+    background:  url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/split_amazon-796x417.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cv-sec, .ttl{
+color: white;
+/* padding: 10px 20px; */
+}
+
+.cv-sec{
+    padding: 20px 20px;
+}
+.ttl{
+    padding: 2px 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.img{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2012/03/pakistan-flag.jpg");
+    height: 25vh;
+    width: 80%;
+    background-size: cover;
+    margin-left:30% ;
+    padding: 0 20px;
+}
+
+.text{
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+.first{
+    margin-left: 25%;
+}
+.last{
+    margin-right: 20%;
+  
+}
+
+.news{
+    margin-top: 70px;
+    margin-left: 30%;
+    color: orangered;
+}
+
+.img1{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/PUBG-playing-game-hed-513x270.jpg");
+    height: 25vh;
+    width: 25vw;
+    background-size: cover;
+    padding-right:20%;
+}
+
+.img2{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/bee-beekeeping-leadership-gq-516x270.png");
+    height: 25vh;
+    background-size: cover;
+    padding: 0 20px;
+}
+
+.img3{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/norway-sweden-evs-cars-future-polestar-tesla-nissan-renault-audi-sales-august-479x270.jpg");
+    height: 25vh;
+    width: 70%;
+    background-size: cover;
+}
+
+.img4{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/split_amazon-516x270.png");
+    height: 25vh;
+    width: 70%;
+    background-size: cover;
+    }
+
+    .img5{
+        background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/image-1-1-516x270.png");
+        height: 25vh;
+        width: 60%;
+        background-size: cover;
+        margin-left: 60px;
+    }
+
+    .img6{
+        background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg");
+        height: 25vh;
+        width: 20vw;
+        background-size: cover;
+    }
+
+    .img7{
+        background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/d3d0d5e7-0735-4733-ab81-646975198465-e1599037758222-512x270.png");
+        height: 25vh;
+        width: 70%;
+        background-size: cover;
+        margin-left: 20px;
+    }
+
+    .txt{
+        width: 70%;
+    }
+
+    .nav-navbar{
+        display: flex;
+        justify-content: space-around;
+        color: orangered;
+        
+    }
+
+  
+    li{
+        display: inline;
+        padding: 20px 20px;
+        margin-left: 20px;
+    }
+
+    .heading{
+        font-size: 30px;
+        font-weight: bold;
+        padding: 0 10px;
+    }
+
+    .right-nav a{
+        list-style: none;
+        text-decoration: none;
+        border-right: 1px solid orangered;
+        padding: 0 10px;
+        color: orangered;
+        font-size: 20px;
+        
+    }
+    
+
+    .funding{
+        display:grid;
+        position: relative;
+        grid-template-columns:repeat(4, 290px);
+        grid-template-rows: 300px;
+        grid-column-gap: 20px;
+        /* border: 1px solid black; */
+        margin-left: 80px;
+        margin-right: 40px;
+    }
+
+.colm{
+    /* border: 1px solid orange; */
+    width: 100%;
+}
+.colm>h4{
+    background: orangered;
+    height: 40px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0%;
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+.colm>h3{
+    background: rgb(255,235,232);
+    text-align: center;
+    margin-top: 0;
+    height: 50px;
+    font-size: 13px;
+
+}
+
+.span{
+    color: gray;
+}
+.story-investmentCard-company-image {
+    width: 60px;
+    /* min-width: 60px; */
+    /* max-width: 60px; */
+    height: 60px;
+    /* min-height: 60px; */
+    /* max-height: 60px; */
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    z-index: 10;
+}
+
+span{
+    color:gainsboro;
+}
+
+
+.colm>p{
+    padding: 0px 10px;
+    color: darkgray;
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+
+
+
+.fas{
+    color: black;
+    padding-right: 10px;
+}
+.last-child{
+    border-bottom: 1px solid rgb(255,204,195);
+    padding-bottom: 10%;
+}
+
+.fa-greater-than{
+    color:orangered;
+}
+
+.popular-section{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows:350px;
+    /* border: 1px solid black; */
+    grid-column-gap: 30px;
+    margin-left: 50px;
+}
+
+.col>p{
+    position: relative;
+    color: white;
+    font-size: 25px;
+    /* margin-top: 80px; */
+    padding:3px 0;
+    top:50%;
+    bottom: 0;
+    
+}
+.small{
+    position: absolute;
+    color: gainsboro;
+    font-size:12px;
+}
+.head-links{
+    display:grid;
+    grid-template-columns: repeat(3, 400px);
+   
+}
+.row1{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-column-gap: 10px;
+}
+.head-links>li>a{
+    color: orangered;
+    font-size: 25px;
+    font-weight: bold;
+}
+.col-1{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.col-2{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2012/03/pakistan-flag.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.col-3{
+   background:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Snag_16e11bad-368x276.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.cm{
+    display: flex;
+    width: 400px;
+    margin-left: 50px;
+    background: #ffccc3;
+    
+}
+
+.image-cm{
+    width:120px;
+    height: 90%;
+}
+
+.items-listed{
+    display:flex;
+    flex-direction: column;
+    line-height: 15px;
+    margin-left: 10px;
+   
+}
+
+.items-listed>li{
+    border-bottom: 1px solid gainsboro;
+}
+
+.cm-1{
+    /* margin-left: 70px; */
+}
+
+ .cm-2{
+     /* margin-right: 0px;   */
+} 
+
+.unordered-list1{
+    display: flex;
+}
+
+.cl{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Nvidia-RTX-3080-368x276.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cl1{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/handshake-emoji-368x276.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cl2{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/106909103_10101777330197904_2889321509499508446_o-1-368x276.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.colm-cm1{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Shift-launch-cars-evs-future-polestar-electric-cars-driving-mobility-368x276.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.colm-cm2{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Netflix-Featured_1-368x276.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.latestdeals{
+    display: grid;
+    grid-template-columns: repeat(4, 400px);
+    grid-template-rows:300px;
+    grid-column-gap: 10px;
+}
+
+.img8{
+    background:url("https://cdnp0.stackassets.com/5cb5497e340bdf203caad36842570c00d492443c/store/4cf3c3c26932a65b8b43b7e6e2d7c1609800afde93a16ace92d0c4ac102d/sale_37002_primary_image.jpg");
+    height: 25vh;
+    width: 25vw;
+    background-size: cover;
+
+}
+
+.img9{
+    background: url("https://cdnp0.stackassets.com/a875072fa31f35279ce85438b376249c54eca996/store/8534f1826bec31d741297d74ee8a30edc0f492f8f74cd08aa4ed0103d42a/sale_14523_primary_image.jpg");
+    height: 25vh;
+    width: 25vw;
+    background-size: cover;
+}
+
+.img10{
+    background: url("https://cdnp0.stackassets.com/7963f2e18379b178b6f028289b23c1a201fa5d01/store/4dd4ed1c0124f4b5a08261e321170102fd10c72d9caabd5286902ddf6625/sale_36919_primary_image.jpg");
+    height: 25vh;
+    width: 25vw;
+    background-size: cover;
+}
+
+.img11{
+    background: url("https://cdnp2.stackassets.com/d2af7f1cd1b3e01e4b9dd8ad7a5c362acd1f6d60/store/49052f9477ad5cc5067aa29931f1cdd3934b2461664e2f540a2d94da9cf4/sale_36849_primary_image.jpg");
+    height: 25vh;
+    width: 25vw;
+    background-size: cover;
+}
+
+.img12{
+    background: url("https://cdnp0.stackassets.com/825637132390d0153f93083ff14920c7cab3f6a8/store/0b7aed89b153b14123f3957f71bdc6f9cfa6a80d601430accf84b8fe2f41/sale_38865_primary_image.jpg");
+    height: 25vh;
+    width: 25vw;
+    background-size: cover;
+}
+
+.img13{
+    background: url("https://cdnp3.stackassets.com/0394dc9887f24aadf6f670c9bb890ce6702e21d1/store/2b7ac1a800d272cd034065ecfe3be55cc6cffbec348d4e0df3c54cf589b2/product_27695_product_shots1.jpg");
+    height: 25vh;
+    width: 25vw;
+    background-size: cover;
+}
+
+.img14{
+    background: url("https://cdnp1.stackassets.com/049cba326c501e4f70978f58a9f7253b976395a6/store/f0583ea57952c14e09ff126547d49e03a0e0199bfa5444fb9d5c33b1e248/sale_8641_primary_image.jpg");
+    height: 25vh;
+    width: 25vw;
+    background-size: cover;
+}
+
+.img15{
+    background: url("https://cdnp0.stackassets.com/825637132390d0153f93083ff14920c7cab3f6a8/store/0b7aed89b153b14123f3957f71bdc6f9cfa6a80d601430accf84b8fe2f41/sale_38865_primary_image.jpg");
+    height: 25vh;
+    width: 25vw;
+    background-size: cover;
+}
+
+footer{
+    background: #313131;
+    width: 100%;
+    height: 500px;
+}
+
+.deals{
+    color: orangered;
+    margin-left: 10%;
+}
+.footer{
+    background: 
+    #131313;
+}
+.footer>ul{
+    /* width: 100%; */
+    padding: 20px 26%;
+  
+} 
+
+.fab>li{
+    background: #333333;
+    border-radius: 40px;
+    width: 5%;
+    height: 10px;
+    font-size: 10px;
+    padding: 15px 15px;
+   
+   
+}
+
+.fab>a{
+    color: white;
+    align-items: center;
+}
+
+.contacts{
+    font-size: 10px;
+    padding: 5px 25%;
+   
+}
+
+.footer1{
+    padding: 30px 20%;
+}
+.footer-legal-logoTNW{
+    width: 40px;
+    height: 20px;
+}
+
+.column{
+    padding-left: 20px;
+}
